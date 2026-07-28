@@ -5,3 +5,4 @@ groq
 pandas
 numpy
 matplotlib
+request
