@@ -460,7 +460,7 @@ def gerar_explicacao_ia(grafico_b64):
     )
 
     try:
-        url = "https://api.groq.com/openai/v1"
+        url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {
             "Authorization": f"Bearer {GROQ_API_KEY}",
             "Content-Type": "application/json",
