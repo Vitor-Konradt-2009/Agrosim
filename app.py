@@ -495,6 +495,8 @@ def gerar_explicacao_ia(grafico_b64):
                 "Verifique se GROQ_VISION_MODEL é um modelo com suporte a imagem na sua conta."
             )
 
+        print(resp.status_code)
+        print(resp.text)
         resp.raise_for_status()
         data = resp.json()
 
